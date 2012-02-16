@@ -12,5 +12,5 @@ function! s:SetCurrentWindow()
 endfunction
 
 " au WinEnter * call s:SetCurrentWindow()
-au WinEnter * :set cul
-au WinLeave * :set nocul
+" au WinEnter * :set cul
+" au WinLeave * :set nocul
