@@ -104,4 +104,6 @@ hi def link tmuxTodo			Todo
 hi def link tmuxVariable		Constant
 hi def link tmuxVariableExpansion	Constant
 
+setlocal commentstring=#%s
+
 let b:current_syntax = "tmux"
